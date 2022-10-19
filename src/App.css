@@ -1,38 +1,84 @@
-.App {
+/* .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-app {
+  text-align: center;
+  background: url('./assets/Juice_Bar.jpg');
+  background-size: cover;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mint_btn{
+  width: 100px;
+  height: 100px;
+  background: url('./assets/Juice_minty.png');
+  background-size: cover;
+  border: none;
+  position: absolute;
+  margin-top: 24%;
+  left: 70%;
+  transform: translate(-50%, -50%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.total_supply{
+  position: absolute;
+  margin-top: 37%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  font-family: 'Mistral';
+  font-size: 3rem;
+  color: #333;
 }
 
-.App-link {
-  color: #61dafb;
+.sale_status{
+  position: absolute;
+  margin-top: 8%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  font-family: 'Segoe script';
+  font-size: 4.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.for_sale{color: rgb(0, 99, 5);}
+.sold_out{color: rgb(160, 11, 0);}
+
+
+.juice_mixer{
+  position: absolute;
+  margin-top: 16.4%;
+  left: 29.5%;
+  transform: translate(-50%, -50%);
+  transform: scale(0.67);
 }
+
+.blender{
+  background: url('./assets/Juice_mixer.png');
+  width: 140px;
+  height: 261px;
+}
+
+.blending {
+  animation: shake 0.5s;
+  animation-iteration-count: 15;
+  animation-timing-function: ease-out;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg) scale(0.67); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg) scale(0.67); }
+  20% { transform: translate(-3px, 0px) rotate(1deg) scale(0.67); }
+  30% { transform: translate(3px, 2px) rotate(0deg) scale(0.67); }
+  40% { transform: translate(1px, -1px) rotate(1deg) scale(0.67); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg) scale(0.67); }
+  60% { transform: translate(-3px, 1px) rotate(0deg) scale(0.67); }
+  70% { transform: translate(3px, 1px) rotate(-1deg) scale(0.67); }
+  80% { transform: translate(-1px, -1px) rotate(1deg) scale(0.67); }
+  90% { transform: translate(1px, 2px) rotate(0deg) scale(0.67); }
+  100% { transform: translate(1px, -2px) rotate(-1deg) scale(0.67); }
+}
+
+ */
+
+
+ 

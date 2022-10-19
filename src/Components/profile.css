@@ -1,0 +1,24 @@
+.main{
+    margin: 14px;
+    color: #3D3760;
+}
+
+.mycover{
+    margin-top: 14px;
+    border-radius: 6px;
+}
+
+.mypfp{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 34%);
+    border: solid #fff 6px;
+    border-radius: 200px;
+}
+
+.name{
+    text-align: center;
+    margin-top: 94px;
+    
+}
+

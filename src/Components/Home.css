@@ -1,0 +1,55 @@
+:root{
+    --green: #52D629;
+    --grey: rgba(0, 0, 0, 0.25)
+}
+
+.home{
+    margin: 24px 16px;
+    font-family: 'Lato';
+    /* position: fixed; */
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.logo{
+    width: 137px
+}
+
+.msg{
+    background: #EDFFE8;
+    padding: 5px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.room{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 0.8em
+}
+
+.room li{
+    color: var(--green);
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+.room a{
+    color: var(--grey);
+    font-weight: 700;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.room a:active,
+.room a.active{
+    border-bottom: #52D629 solid 4px;
+    text-decoration: none;
+    color: #52D629;
+}
+
